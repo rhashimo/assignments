@@ -1,0 +1,3 @@
+First, using the curl command, I downloaded a csv file of House Office Expenditure at 2017Q1.
+Then, I handed the csv dataset to filter.py as STDIN and get the filtered data based on expenditure purpose ("Water") and amount (">$$1000") as STDOUT.
+The filtered data was saved as "expenditure_water.csv", which was then summarized by the csvstat command.

@@ -1,0 +1,6 @@
+filter criterion: PURPOSE == 'LODGE' and AMOUNT > 1000
+findings:
+ - output.csv has 209 rows, meaning there were more than 200 transactions about lodging that cost more than $1000
+ - The highest amount was $9,823.44, spent by HON. MADELEINE Z. BORDALLO (although I don't have any clues to tell whether this lodging is unreasonably expensive or not)
+ - A number of congressmans seemed to have expensive lodgings more frequently.
+    e.g. HON. PAUL A. GOSAR (9x), HON. MADELEINE Z. BORDALLO (5x), HON. KEN CALVERT (4x), HON. DAVID G. VALADAO (4x)
